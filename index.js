@@ -83,7 +83,6 @@ async function checkOilPrice() {
 
 // ตั้งเวลาให้รันทุก 6 ชั่วโมง
 setInterval(checkOilPrice, 10 * 60 * 1000);
-checkOilPrice(); // รันครั้งแรก
 
 // API สำหรับตรวจสอบราคาน้ำมัน
 const apiRouter = express.Router();
@@ -94,10 +93,16 @@ apiRouter.get("/", async (req, res) => {
 });
 
 apiRouter.get("/oil-price", async (req, res) => {
+  checkOilPrice();
   const prices = await getOilPrice();
-  res.json(prices || { error: "Cannot fetch oil price" });
+  if (prices) {
+    return res.status(200).json(prices.data);
+  } else {
+    return res.status(400).json({ error: "Cannot fetch oil price" });
+  }
 });
 
 app.listen(process.env.PORT, () => {
+  checkOilPrice(); // รันครั้งแรกเมื่อเริ่มเซิร์ฟเวอร์
   console.log(`🚀 Server running on port ${process.env.PORT}`);
 });
