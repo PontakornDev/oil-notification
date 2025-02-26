@@ -86,7 +86,14 @@ setInterval(checkOilPrice, 6 * 60 * 60 * 1000);
 checkOilPrice(); // รันครั้งแรก
 
 // API สำหรับตรวจสอบราคาน้ำมัน
-app.get("/oil-price", async (req, res) => {
+const apiRouter = express.Router();
+app.use("/api", apiRouter);
+
+apiRouter.get("/oil-price", async (req, res) => {
+  res.json({ message: "API is running..." });
+});
+
+apiRouter.get("/oil-price", async (req, res) => {
   const prices = await getOilPrice();
   res.json(prices || { error: "Cannot fetch oil price" });
 });
