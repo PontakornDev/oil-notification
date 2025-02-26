@@ -82,7 +82,7 @@ async function checkOilPrice() {
 }
 
 // ตั้งเวลาให้รันทุก 6 ชั่วโมง
-setInterval(checkOilPrice, 6 * 60 * 60 * 1000);
+setInterval(checkOilPrice, 10 * 60 * 1000);
 checkOilPrice(); // รันครั้งแรก
 
 // API สำหรับตรวจสอบราคาน้ำมัน
