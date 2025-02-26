@@ -1,0 +1,277 @@
+{
+    "status": "success",
+    "response": {
+        "note": "Retail Prices in Bangkok & Vicinities Unit : Baht/Litre",
+        "date": "26 กุมภาพันธ์ 2568",
+        "stations": {
+            "ptt": {
+                "gasoline_95": {
+                    "name": "เบนซิน 95",
+                    "price": "43.94"
+                },
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "gasohol_e85": {
+                    "name": "แก๊สโซฮอล์ E85",
+                    "price": "32.09"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "premium_diesel": {
+                    "name": "ดีเซลพรีเมียม",
+                    "price": "44.94"
+                },
+                "premium_gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95 พรีเมียม",
+                    "price": "44.24"
+                },
+                "superpower_gasohol_95": {
+                    "name": "ซูเปอร์พาวเวอร์ แก๊สโซฮอล์ 95",
+                    "price": "44.24"
+                },
+                "ngv": {
+                    "name": "แก๊ส NGV",
+                    "price": "18.70"
+                }
+            },
+            "bcp": {
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "gasohol_e85": {
+                    "name": "แก๊สโซฮอล์ E85",
+                    "price": "32.09"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "premium_gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95 พรีเมียม",
+                    "price": "49.84"
+                },
+                "premium_gasohol_97": {
+                    "name": "แก๊สโซฮอล์ 97 พรีเมียม",
+                    "price": "49.84"
+                },
+                "premium_diesel": {
+                    "name": "ดีเซลพรีเมียม",
+                    "price": "47.14"
+                }
+            },
+            "shell": {
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "36.15"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.78"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.94"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "premium_gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95 พรีเมียม",
+                    "price": "49.84"
+                },
+                "premium_diesel": {
+                    "name": "ดีเซลพรีเมียม",
+                    "price": "49.84"
+                },
+                "vpower_gasohol_95": {
+                    "name": "เชลล์ วี-เพาเวอร์ แก๊สโซฮอล์ 95",
+                    "price": "49.84"
+                },
+                "vpower_diesel_b7": {
+                    "name": "เชลล์ วี-เพาเวอร์ ดีเซล",
+                    "price": "49.84"
+                },
+                "fuelsafe_diesel_b7": {
+                    "name": "เชลล์ ฟิวเซฟ ดีเซล",
+                    "price": "32.94"
+                }
+            },
+            "esso": {
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "premium_gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95 พรีเมียม",
+                    "price": "49.84"
+                },
+                "premium_diesel": {
+                    "name": "ดีเซลพรีเมียม",
+                    "price": "47.14"
+                }
+            },
+            "caltex": {
+                "gasoline_95": {
+                    "name": "เบนซิน 95",
+                    "price": "49.81"
+                },
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "premium_diesel": {
+                    "name": "ดีเซลพรีเมียม",
+                    "price": "47.14"
+                }
+            },
+            "irpc": {
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                }
+            },
+            "pt": {
+                "gasoline_95": {
+                    "name": "เบนซิน 95",
+                    "price": "44.44"
+                },
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                }
+            },
+            "susco": {
+                "gasoline_95": {
+                    "name": "เบนซิน 95",
+                    "price": "44.09"
+                },
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                },
+                "ngv": {
+                    "name": "แก๊ส NGV",
+                    "price": "19.59"
+                }
+            },
+            "pure": {
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                }
+            },
+            "susco_dealers": {
+                "gasoline_95": {
+                    "name": "เบนซิน 95",
+                    "price": "44.09"
+                },
+                "gasohol_95": {
+                    "name": "แก๊สโซฮอล์ 95",
+                    "price": "35.65"
+                },
+                "gasohol_91": {
+                    "name": "แก๊สโซฮอล์ 91",
+                    "price": "35.28"
+                },
+                "gasohol_e20": {
+                    "name": "แก๊สโซฮอล์ E20",
+                    "price": "33.44"
+                },
+                "diesel": {
+                    "name": "ดีเซล B7",
+                    "price": "32.94"
+                }
+            }
+        }
+    }
+}
