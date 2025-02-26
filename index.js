@@ -89,7 +89,7 @@ checkOilPrice(); // รันครั้งแรก
 const apiRouter = express.Router();
 app.use("/api", apiRouter);
 
-apiRouter.get("/oil-price", async (req, res) => {
+apiRouter.get("/", async (req, res) => {
   res.json({ message: "API is running..." });
 });
 
